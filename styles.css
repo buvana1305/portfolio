@@ -1,0 +1,157 @@
+.firstDiv {
+  background-color: #181e24;
+  width: 100%;
+  height: auto;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.headerDiv {
+  height: 75px;
+  width: 100%;
+  border-bottom: 1px solid #505760;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+header > div > .imgHolder {
+  margin-left: 20px;
+}
+
+/* not working */
+header > div > a {
+  padding-right: 20px;
+}
+header > div > .anchorCourses {
+  background-color: #181e24;
+  color: #a5acb9;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.anchorCourses:hover {
+  background-color: #1d232a;
+}
+.mainContainer {
+  width: 80%;
+  margin-top: 50px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  display: flex;
+}
+.Container {
+  margin-top: 50px;
+  width: 310px;
+  height: 515px;
+  border: 1px solid #2a323c;
+  margin-right: 25px;
+  margin-bottom: 25px;
+  background-color: #2a323c;
+  border-radius: 10px;
+}
+
+.img {
+  width: 100%;
+}
+
+div > h2 {
+  display: flex;
+  line-height: 1.75rem;
+  text-align: left;
+  padding-left: 15px;
+  margin-right: 4px;
+  margin-bottom: 2px;
+  display: inline-block;
+  color: hsl(198 93% 60% / 1);
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+.span-tag {
+  color: rgb(148 163 184);
+  line-height: 1.75rem;
+  padding-bottom: 0.25rem;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+div > p {
+  padding-left: 15px;
+  color: gray;
+}
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  text-align: end;
+  padding-right: 15px;
+}
+
+.anchorCourses1 {
+  margin-left: 200px;
+  width: 55px;
+  background-color: rgb(40 167 69);
+  color: rgb(255 255 255);
+  padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 10px;
+  border: 3px;
+}
+.anchorCourses1:hover {
+  background-color: rgb(25 110 45);
+}
+.footer-align {
+  text-align: center;
+  color: white;
+}
+div > .footer-list {
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: 200px 150px 150px 120px 120px 100px 100px;
+  color: aliceblue;
+}
+.footer-main {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+}
+@media screen and (max-width: 500px) {
+  .Container {
+    flex-wrap: wrap;
+  }
+  .footer-main {
+    flex-wrap: wrap;
+  }
+  div > .footer-list {
+    display: block;
+    text-align: center;
+    margin-right: 115px;
+    margin-left: 60px;
+    line-height: 1.5rem;
+  }
+  header > div > .imgHolder {
+    display: none;
+  }
+  header > div > .imgHolder2 {
+    display: block;
+    width: 70px;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 1300px) {
+  .footer-main {
+    flex-wrap: wrap;
+  }
+  div > .footer-list {
+    display: flex;
+    text-align: center;
+    margin: 16px;
+    gap: 10px;
+    line-height: 1.5rem;
+  }
+}
+.imgHolder2 {
+  display: none;
+}
