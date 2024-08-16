@@ -264,9 +264,9 @@ html,
 body {
   scroll-behavior: smooth;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   navigation {
-    left: 40%;
+    left: 45%;
   }
 }
 /*========================Home page End=========*/
